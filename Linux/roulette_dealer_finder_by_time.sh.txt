@@ -1,0 +1,2 @@
+ls Dealer_Schedules_0310/ | grep 03$_Dealer_schedule | awk -F"_" '{print $1}'
+cat 03* /home/sysadmin/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis/Dealer_Schedules_0310 | awk '{print $1,$2,$5,$6}'
